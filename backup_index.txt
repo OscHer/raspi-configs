@@ -1,0 +1,1 @@
+config.txt -> /boot/config.txt
