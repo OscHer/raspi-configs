@@ -7,7 +7,7 @@
 
 # uncomment to stop CEC-enabled TVs from coming out of stand by or switching
 # channel when rebooting Rpi
-hdmi_ignore_cec_init
+hdmi_ignore_cec_init 1
 
 
 # uncomment this if your display has a black border of unused pixels visible
