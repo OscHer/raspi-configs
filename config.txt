@@ -45,7 +45,7 @@ hdmi_ignore_cec_init 1
 #sdtv_mode=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
-#arm_freq=800
+#arm_freq=1850
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
@@ -73,3 +73,7 @@ start_x=0
 dtoverlay=RetroFlag_pw_io.dtbo
 enable_uart=1
 gpu_mem=512
+
+# Overclock settings
+over_voltage=3
+arm_freq=1800
